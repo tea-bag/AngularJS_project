@@ -1,0 +1,19 @@
+<div class="s-l-content">
+    <ul>
+        <li ng-repeat="item in list1" ui-sref='position({id:item.id})'>
+            <div>
+                <img ng-src="../../image/{{item.imgurl}}" alt="企业">
+                <div>
+                    <p class="p1">{{item.companyname}}</p>
+                    <div>
+                        <p class="p2">
+                            <span>{{item.industry}}[ {{item.cityname}} ]</span>
+                            <span>{{item.salary}}</span>
+                        </p>
+                        <p class="p3">{{item.publishtime | mf}}</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

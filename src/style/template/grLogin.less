@@ -1,0 +1,64 @@
+.gr-l-f{
+	input::-webkit-input-placeholder{
+		color: #fff;
+		.ti(30);
+		.fs(14);
+	}
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background-image: url(../image/background.png);
+	// background-repeat: no-repeat;
+	background-size: cover;
+	form {
+		.mt(150);
+		display: inline-block;
+		div {
+			
+			.h(35);
+			// .lh(35);
+			.mt(20);
+			span {
+				display: inline-block;
+				position: relative;
+				.b(-12);
+				.l(5);
+				.w(34);
+				.h(34);				
+				background-position: center;
+				background-repeat: no-repeat;
+				background-color: rgba(0, 0, 0, 0.5);
+			}
+			.label-phone {
+				background-image: url(../image/my.png);
+			}
+			.label-pwd {
+				background-image: url(../image/lock.png);
+			}
+			input {
+				color: #fff;
+				.ti(8);
+				.mt(20);
+				.w(200);
+				.h(35);
+				background-color: rgba(0, 0, 0, 0.3);
+				.fs(16);
+				border: none;
+				input::-webkit-input-placeholder{
+					color: #fff;
+					text-align: center;
+				}
+			}
+		}
+	}
+	.operate{
+		position: fixed;
+		.b(80);
+		button {
+			.m(10);			
+		}
+	}		
+}

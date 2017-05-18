@@ -1,0 +1,19 @@
+<div class="p-l">
+    <div class="p-l-t"><h4>{{position.industry}}<h4></div>
+    <div class="p-l-d">
+        <span class="p-addr">{{position.cityname}}</span>
+        <span class="p-salary">{{position.salary}}</span>
+        <!-- <span ng-if="isFavorite" ng-click="$event.stopPropagation();select(position);" class="fav {{item.select?'star-active':'star'}}"></span> -->
+    </div>
+    <div class="p-l-c">
+        <img src="../../image/{{position.imgurl}}" alt="公司名称">
+        <span>
+            <h4>{{position.companyname}}</h4>
+            <p>移动互联网，游戏/未融资/{{position.empnum}}</p>
+        </span>
+    </div>
+    <div class="p-l-i" >
+        <div>职位描述</div>
+        <span>发布时间：{{position.publishtime}}</span>
+    </div>
+</div>

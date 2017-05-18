@@ -1,0 +1,12 @@
+<div class="me-l-s">
+    <div class="me-login" ng-hide="name">
+        <a ui-sref='grLogin'>登录/注册</a>
+    </div>
+    <div class="me-logout" ng-show="name">
+        <img src="" alt="">
+        <div ng-bind="name"></div>
+        <a ui-sref='post'>投递</a>
+        <a ui-sref='favorite'>收藏</a>
+        <button class="logout-btn" ng-click="logout()">退出登录</button>
+    </div>
+</div>

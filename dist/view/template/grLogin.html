@@ -1,0 +1,18 @@
+<div class="gr-l-f">
+	<form action="" name="mf" novalidate>		
+		<div>
+			<span class="label-phone"></span>
+			<input type="text" ng-model='user.phone' placeholder="请输入手机号">
+		</div>
+		<div>
+			<span class="label-pwd"></span>
+			<input type="password" ng-model='user.pwd' placeholder="请输入密码" minlength="6">
+		</div>
+	</form>
+	<div class="operate">
+		<button class="btn-login" ng-click="submit()">个人登录</button>
+		<button class="btn-login" ng-click="submitcompany()">企业登录</button>		
+		<button class="btn-register" ui-sref='grRegister'>个人注册</button>
+		<button class="btn-register" ui-sref='qyRegister'>企业注册</button>
+	</div>
+</div>

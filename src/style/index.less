@@ -1,0 +1,121 @@
+@import 'template/head.less';
+@import 'template/mainList.less';
+@import 'template/meLogin.less';
+@import 'template/foot.less';
+@import 'template/color.less';
+@import 'template/grRegister.less';
+@import 'template/qyRegister.less';
+@import 'template/grLogin.less';
+@import 'template/qyLogin.less';
+@import 'template/headbar.less';
+@import 'template/footbar.less';
+@import 'template/positionlist.less';
+@import 'template/searchbar.less';
+@import 'template/searchhead.less';
+@import 'template/sheet.less';
+*{
+	margin: 0;
+	padding: 0;
+}
+html body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-color: #fff;
+	.fs(16);
+	margin: 0;
+	padding: 0;
+}
+button {
+	border-width: 0;
+	outline-width: 0;
+	outline: none;
+}
+.btn-register{
+	color: #fff;
+	.fs(16);
+	.w(250);
+	.h(35);
+	border: 1px solid @headBgColor;	
+	background-color: rgba(0, 179, 138, 0.35);
+}
+.btn-login{
+	color: #fff;
+	.fs(18);
+	.w(250);
+	.h(35);
+	border: 1px solid @headBgColor;
+	background-color: @headBgColor;
+}
+.select{
+	color: @selectFontColor;
+	background-color: @selectBgColor;
+}
+.zwf{
+	.h(35);
+}
+.fs(@px){
+	font-size: unit(@px/37.5 , rem);
+}
+.t(@px){
+	top: unit(@px/37.5 , rem);
+}
+.b(@px){
+	bottom: unit(@px/37.5 , rem);
+}
+.l(@px){
+	left: unit(@px/37.5 , rem);
+}
+.r(@px){
+	right: unit(@px/37.5 , rem);
+}
+.h(@px){
+	height: unit(@px/37.5 , rem);
+}
+.w(@px){
+	width: unit(@px/37.5 , rem);
+}
+.m(@px){
+	margin: unit(@px/37.5 , rem);
+}
+.p(@px){
+	padding: unit(@px/37.5 , rem);
+}
+.mt(@px){
+	margin-top: unit(@px/37.5 , rem);
+}
+.ml(@px){
+	margin-left: unit(@px/37.5 , rem);
+}
+.mr(@px){
+	margin-right: unit(@px/37.5 , rem);
+}
+.mb(@px){
+	margin-bottom: unit(@px/37.5 , rem);
+}
+.pt(@px){
+	padding-top: unit(@px/37.5 , rem);
+}
+.pl(@px){
+	padding-left: unit(@px/37.5 , rem);
+}
+.pr(@px){
+	padding-right: unit(@px/37.5 , rem);
+}
+.pb(@px){
+	padding-bottom: unit(@px/37.5 , rem);
+}
+.lh(@px){
+	line-height: unit(@px/37.5 , rem);
+}
+.ti(@px){
+	text-indent: unit(@px/37.5 , rem);
+}
+.br(@px){
+	border-radius: unit(@px/37.5 , rem);
+}
+.mh(@px){
+	max-height: unit(@px/37.5 , rem);
+}
+
